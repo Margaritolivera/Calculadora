@@ -1,0 +1,22 @@
+.input {
+  height: 65px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 45px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 11px 30px 11px 11px;
+  border: 2px solid white;
+  overflow: hidden; /* Cambia de "auto" a "hidden" */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos (...) al final del texto si se desborda */
+}
+
+
+.resultado {
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
